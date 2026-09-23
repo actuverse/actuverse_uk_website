@@ -113,18 +113,17 @@ header.nav{
   border-left: 1px solid var(--line);
 }
 .nav-cta{
-  border:1px solid var(--btn-navy);
-  background: var(--btn-navy);
+  background: linear-gradient(90deg, var(--cyan), var(--blue));
   padding:8px 18px;
   border-radius:100px;
   font-size:0.88rem;
-  color: var(--bg-0);
-  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  font-weight: 600;
+  color: #ffffff;
+  transition: transform .18s ease, box-shadow .18s ease;
 }
 .nav-cta:hover{
   transform: translateY(-1px);
-  border-color: var(--cyan);
-  box-shadow: 0 0 0 3px rgba(34,211,238,0.16), 0 8px 20px rgba(1,9,28,0.16);
+  box-shadow: 0 8px 22px rgba(34,211,238,0.35);
 }
 @media (max-width: 720px){
   .nav-links{ display:none; }
@@ -189,19 +188,17 @@ header.nav{
   display:inline-flex;
   align-items:center;
   gap:10px;
-  background: var(--btn-navy);
+  background: linear-gradient(90deg, var(--cyan), var(--blue));
   color: #ffffff;
   font-weight: 600;
   font-size: 0.94rem;
   padding: 12px 24px;
   border-radius: 100px;
-  border: 1px solid var(--btn-navy);
-  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+  transition: transform .18s ease, box-shadow .18s ease;
 }
 .btn-primary:hover{
   transform: translateY(-2px);
-  border-color: var(--cyan);
-  box-shadow: 0 0 0 4px rgba(34,211,238,0.16), 0 12px 28px rgba(1,9,28,0.2);
+  box-shadow: 0 12px 28px rgba(34,211,238,0.35);
 }
 
 .triangle-wrap{
@@ -656,7 +653,7 @@ footer .sep{ margin: 0 8px; opacity: 0.5; }
   <div class="wrap">
     <div class="ai-strip">
       <span class="tag">AI &amp; Machine Learning</span>
-      <p>Actuverse also works in AI and machine learning for actuarial applications, in a dedicated space built for that side of the work.</p>
+      <p>Curious how machine learning could enhance your reserving, pricing or capital work? That's exactly what our AI practice focuses on.</p>
       <a class="ai-cta" href="https://actuverse.ai/" target="_blank" rel="noopener">Explore actuverse.ai ↗</a>
     </div>
   </div>
